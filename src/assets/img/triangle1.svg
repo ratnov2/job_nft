@@ -1,0 +1,30 @@
+<svg width="298" height="258" viewBox="0 0 298 258" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:color-dodge" opacity="0.73">
+<path d="M287.758 6.29395L148.883 246.869L10.0088 6.29395H287.758Z" stroke="url(#paint0_linear_0_8155)" stroke-width="11" stroke-miterlimit="10"/>
+<path d="M205.76 52.7139L148.884 151.194L92.0371 52.7139H205.76Z" stroke="url(#paint1_linear_0_8155)" stroke-width="11" stroke-miterlimit="10"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_8155" x1="263.36" y1="165.521" x2="34.3678" y2="-63.4333" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FC3F7"/>
+<stop offset="0.09" stop-color="#4AA5DC" stop-opacity="0.84"/>
+<stop offset="0.22" stop-color="#437CB6" stop-opacity="0.62"/>
+<stop offset="0.36" stop-color="#3D5996" stop-opacity="0.43"/>
+<stop offset="0.49" stop-color="#393C7B" stop-opacity="0.28"/>
+<stop offset="0.62" stop-color="#352567" stop-opacity="0.16"/>
+<stop offset="0.75" stop-color="#331558" stop-opacity="0.07"/>
+<stop offset="0.88" stop-color="#310C4F" stop-opacity="0.02"/>
+<stop offset="0.99" stop-color="#31094D" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_8155" x1="207.359" y1="125.918" x2="90.4192" y2="8.99799" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FC3F7"/>
+<stop offset="0.09" stop-color="#4AA5DC" stop-opacity="0.84"/>
+<stop offset="0.22" stop-color="#437CB6" stop-opacity="0.62"/>
+<stop offset="0.36" stop-color="#3D5996" stop-opacity="0.43"/>
+<stop offset="0.49" stop-color="#393C7B" stop-opacity="0.28"/>
+<stop offset="0.62" stop-color="#352567" stop-opacity="0.16"/>
+<stop offset="0.75" stop-color="#331558" stop-opacity="0.07"/>
+<stop offset="0.88" stop-color="#310C4F" stop-opacity="0.02"/>
+<stop offset="0.99" stop-color="#31094D" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

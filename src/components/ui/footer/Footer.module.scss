@@ -1,0 +1,67 @@
+@import '../../../assets/style/variables.scss';
+
+.footer {
+	background-color: rgba($grey8, 0.01);
+	position: relative;
+	overflow: hidden;
+	padding: 0 40px;
+
+	.borders {
+		padding: 40px 0 40px 0;
+		border: 1px solid rgba($white, 0.06);
+		border-top: none;
+		border-bottom: 0;
+	}
+	.head {
+		display: flex;
+		justify-content: space-between;
+		&:last-child {
+			margin-right: 42px;
+		}
+		.logoInfo {
+			display: flex;
+			align-items: center;
+			svg {
+				transform: scale(0.83);
+			}
+			p {
+				@include typography3;
+				font-family: 'GothamBold', sans-serif;
+				margin-left: 6px;
+			}
+		}
+	}
+	.copyright {
+		display: flex;
+		margin-top: 8px;
+		> p {
+			color: $grey1;
+		}
+		justify-content: space-between;
+		.localizeAndSocial {
+			display: flex;
+		}
+	}
+	.section {
+		margin-top: 61px;
+		@include typography13;
+		line-height: 24px;
+		color: #bbb5ac;
+		h6 {
+			margin-bottom: 30px;
+		}
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		background-color: $radial_ball1;
+		width: 1506px;
+		height: 263px;
+		border-radius: 100%;
+		opacity: 0.3;
+		bottom: -215px;
+		filter: blur(77px);
+		z-index: -1;
+	}
+}

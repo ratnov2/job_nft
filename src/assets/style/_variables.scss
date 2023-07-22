@@ -1,0 +1,129 @@
+$active_link: #d2cbb0;
+$grey1: #9396a0;
+$grey2: #bbb5ac;
+$grey3: #acafbb;
+$grey4: #d1d0ce;
+$grey5: #e1e5e1;
+$grey6: #acafbb;
+$grey7: #e3e3e3;
+$grey8: #d9d9d9;
+$grey9: #a29fba;
+$grey10: #d9d9d9;
+
+$mostly_black1: #181a22;
+$mostly_black2: #252831;
+$mostly_black3: #1c1e24;
+$mostly_black4: #1d2129;
+$mostly_black5: #171a20;
+$mostly_black6: #15171e;
+
+$navigation: rgba(28, 32, 40, 0.7);
+
+$gradient1: radial-gradient(
+	99.98% 66.65% at 29.57% 91.93%,
+	#7389fa 0%,
+	#384089 18%,
+	#222d51 57%,
+	#32244f 85%,
+	#171142 100%
+);
+
+$fon_pentagon: drop-shadow(3px 5px 20px #1e5dff);
+
+$bg1: #121317;
+
+$radial_ball1: #937b57;
+$radial_ball2: #eea32d;
+$radial_ball3: #665ba7;
+
+$button: #2d6fee;
+$white: #ffffff;
+
+$crumbs: #4e73d2;
+
+@mixin typography1 {
+	font-size: 58px;
+	font-weight: 500;
+	font-style: normal;
+}
+@mixin typography2 {
+	font-size: 35px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin typography3 {
+	font-size: 28px;
+	font-weight: 350;
+	font-style: normal;
+}
+@mixin typography4 {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@mixin typography5 {
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin typography6 {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin typography7 {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 325;
+}
+
+@mixin typography8 {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+}
+@mixin typography9 {
+	font-size: 15px;
+	font-weight: 500;
+	font-style: normal;
+}
+@mixin typography10 {
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+}
+@mixin typography11 {
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+}
+@mixin typography12 {
+	font-size: 14px;
+	font-weight: 500;
+	font-style: normal;
+}
+@mixin typography13 {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin plusLine {
+	content: '';
+	position: absolute;
+	width: 11px;
+	background-color: $grey9;
+	height: 3px;
+	border-radius: 1px;
+}
+@mixin plusLine2 {
+	content: '';
+	position: absolute;
+	width: 3px;
+	background-color: $grey9;
+	height: 11px;
+	z-index: 10;
+	border-radius: 1px;
+}

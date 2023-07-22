@@ -1,0 +1,28 @@
+@import '../../../assets/style/variables.scss';
+
+.ventureAssets {
+	min-height: 100vh;
+	display: flex;
+	padding: 150px 0 150px 0;
+	position: relative;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	.fonPentagons {
+		position: absolute;
+		svg {
+			filter: $fon_pentagon;
+		}
+		opacity: 0.2;
+		z-index: -1;
+	}
+	.assetsCards {
+		> div {
+			&:first-child {
+				margin-right: 33px;
+			}
+		}
+		display: flex;
+		justify-content: center;
+	}
+}

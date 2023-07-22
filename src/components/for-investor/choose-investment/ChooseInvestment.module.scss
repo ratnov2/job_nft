@@ -1,0 +1,51 @@
+@import '../../../assets/style/variables.scss';
+
+.chooseInvestment {
+	min-height: 100vh;
+	display: flex;
+	padding: 150px 0 150px 0;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		background-color: $radial_ball2;
+		right: -250px;
+		top: 300px;
+		width: 464px;
+		height: 555px;
+		border-radius: 100%;
+		opacity: 0.15;
+		filter: blur(137px);
+		z-index: -1;
+	}
+	.lightning {
+		position: absolute;
+		top: 0;
+		&::before {
+			content: '';
+			position: absolute;
+			background-color: $radial_ball3;
+			left: -300px;
+			top: 300px;
+			width: 555px;
+			height: 555px;
+			border-radius: 100%;
+			opacity: 0.15;
+			filter: blur(137px);
+			z-index: -1;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			background: url('../../../assets/img/Ligthnings.svg') no-repeat;
+			left: -170px;
+			top: 400px;
+			width: 555px;
+			height: 555px;
+			z-index: -1;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+@import '../../../assets/style/variables.scss';
+
+.navigation {
+	background-color: $navigation;
+	backdrop-filter: blur(22px);
+	height: 108px;
+	.section {
+		display: flex;
+		height: 100%;
+		justify-content: space-between;
+		align-items: center;
+		.linkAndLocalize {
+			display: flex;
+			> nav {
+				position: relative;
+				&::after {
+					content: '';
+					background-color: rgba($white, 0.1);
+					width: 1px;
+					height: 24px;
+					position: absolute;
+					right: 19px;
+				}
+			}
+		}
+	}
+}
+.height {
+	height: 100%;
+}

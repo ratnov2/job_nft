@@ -1,4 +1,3 @@
-import './assets/style/global.scss'
 
 function App() {
 	return (

@@ -1,0 +1,37 @@
+@import '../../../../assets/style/variables.scss';
+
+.chooseDeposit {
+	text-align: left;
+	background-color: $mostly_black1;
+	width: fit-content;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	color: $grey5;
+	.section {
+		display: flex;
+		border-bottom: 1px solid rgba($grey7, 0.1);
+	}
+	> button {
+		position: relative;
+		&::before {
+			position: absolute;
+			content: '';
+			background: $mostly_black5;
+			width: calc(100% - 56px);
+			height: 40px;
+			left: 28px;
+			top: 27px;
+			z-index: -1;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			background: $mostly_black6;
+			width: calc(100% - 108px);
+			height: 40px;
+			left: 56px;
+			top: 50px;
+			z-index: -2;
+		}
+	}
+}

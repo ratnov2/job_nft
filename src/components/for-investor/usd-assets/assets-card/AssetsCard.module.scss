@@ -1,0 +1,56 @@
+@import '../../../../assets/style/variables.scss';
+
+.assetsCard {
+	padding: 25px 25px 50px 25px;
+	text-align: left;
+	width: 361px;
+	background-color: $mostly_black1;
+	h4 {
+		margin: 21px 0 22px 0;
+		@include typography5;
+		color: $grey5;
+	}
+	.info {
+		li {
+			display: flex;
+			justify-content: space-between;
+			> span {
+				margin-bottom: 20px;
+			}
+			span:first-child {
+				@include typography10;
+				color: $grey3;
+			}
+			span:last-child {
+				@include typography10;
+				color: $grey5;
+			}
+		}
+	}
+	> p {
+		margin: 14px 0 55px 0;
+		@include typography10;
+		line-height: 24px;
+		color: $grey3;
+	}
+	.buttonGroup {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		button {
+			@include typography9;
+			font-family: 'Source Code Pro', sans-serif;
+			letter-spacing: 0.09px;
+		}
+		.miniCalc {
+			display: flex;
+			align-items: center;
+			p {
+				margin-left: 8px;
+				@include typography9;
+				font-family: 'Source Code Pro', sans-serif;
+				letter-spacing: 0.09px;
+			}
+		}
+	}
+}

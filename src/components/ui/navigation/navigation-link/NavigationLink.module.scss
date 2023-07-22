@@ -1,0 +1,14 @@
+@import '../../../../assets/style/variables.scss';
+
+.nav {
+	display: flex;
+	align-items: center;
+	@include typography11;
+	font-family: 'Source Code Pro', sans-serif;
+	line-height: 20px;
+	a {
+		margin-right: 40px;
+		color: $grey1;
+		text-transform: uppercase;
+	}
+}

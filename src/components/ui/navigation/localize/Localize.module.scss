@@ -1,0 +1,10 @@
+@import '../../../../assets/style/variables.scss';
+.localize {
+	display: flex;
+	align-items: center;
+	span {
+		margin: 0 8px;
+		@include typography13;
+		font-family: 'Gotham', sans-serif;
+	}
+}

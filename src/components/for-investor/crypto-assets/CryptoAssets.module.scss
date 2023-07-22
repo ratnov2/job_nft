@@ -1,0 +1,28 @@
+.cryptoAssets {
+	min-height: 100vh;
+	display: flex;
+	padding: 150px 0 150px 0;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		width: 826px;
+		height: 973px;
+		background-image: url('../../../assets/img/fon_crypto.png');
+		z-index: -1;
+		right: -300px;
+
+	}
+	.assetsCards {
+		display: flex;
+		justify-content: center;
+		> div {
+			&:first-child {
+				margin-right: 33px;
+			}
+		}
+	}
+}

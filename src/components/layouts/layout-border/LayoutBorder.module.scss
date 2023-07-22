@@ -1,0 +1,30 @@
+@import '../../../assets/style/variables.scss';
+
+.layout {
+	margin: 0 40px;
+	border: 1px solid rgba($white,0.06);
+	border-top: none;
+	position: relative;
+	.plus {
+		&::before {
+			@include plusLine;
+			right: -6px;
+			bottom: -2px;
+		}
+		&::after {
+			@include plusLine2;
+			right: -2px;
+			bottom: -6px;
+		}
+	}
+	&::before {
+		@include plusLine;
+		left: -6px;
+		bottom: -2px;
+	}
+	&::after {
+		@include plusLine2;
+		left: -2px;
+		bottom: -6px;
+	}
+}

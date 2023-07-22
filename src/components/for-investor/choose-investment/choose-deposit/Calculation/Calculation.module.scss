@@ -1,0 +1,49 @@
+@import '../../../../../assets/style/variables.scss';
+
+.calculation {
+	border-right: 1px solid rgba($grey7, 0.1);
+	width: 50%;
+	.head {
+		padding: 42px 40px 20px 40px;
+		border-bottom: 1px solid rgba($grey7, 0.1);
+		h4 {
+			margin-top: 15px;
+			@include typography4;
+			line-height: 36px;
+		}
+	}
+	.period {
+		padding: 21px 40px 20px 40px;
+		border-bottom: 1px solid rgba($grey7, 0.1);
+		p {
+			margin-bottom: 14px;
+		}
+		button {
+			margin-right: 9px;
+		}
+	}
+	.invest {
+		padding: 21px 40px 20px 40px;
+		.headInvest {
+			margin-bottom: 14px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.input {
+			background-color: $mostly_black3;
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+			border-radius: 72px;
+			height: 36px;
+			input {
+				width: 100%;
+				@include typography8;
+			}
+			> div {
+				margin-right: 20px;
+				color: $grey2;
+			}
+		}
+	}
+}

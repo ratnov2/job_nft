@@ -1,0 +1,41 @@
+@import '../../../assets/style/variables.scss';
+
+.share {
+	padding: 18px 35px;
+	text-transform: uppercase;
+	background: transparent;
+	cursor: pointer;
+	width: fit-content;
+}
+.headIn {
+	border-radius: 51px;
+	border: 2px solid $grey4;
+	color: $grey4;
+}
+.headUp {
+	border-radius: 51px;
+	border: 2px solid $button;
+	background-color: $button;
+	color: $white;
+}
+.calcMonth {
+	width: 39px;
+	border-radius: 46px;
+	height: 46px;
+	padding: 0;
+	color: $grey5;
+	background-color: $mostly_black2;
+}
+.openDeposit {
+	background-color: $mostly_black4;
+	width: 100%;
+	color: $grey5;
+}
+.openDepositV2 {
+	border-radius: 51px;
+	border: 2px solid $button;
+	padding: 15px 20px;
+	background-color: $button;
+	text-transform: capitalize;
+	color: $white;
+}
